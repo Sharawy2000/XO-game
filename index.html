@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>XO Official Game</title>
+</head>
+<body>
+    <div class="title"><span style="color: rgb(0, 0, 0);margin-right: 40px;font-size: 80px;">X</span><span class="o" style="color: rgb(255, 255, 255);margin-right: 60px;font-size: 80px;"> O</span> Game</div>
+    <div id="turn" style="font-size: 50px;padding: 10px;"> X turn </div>
+    
+    <div class="parent">
+        <div id="d1" onclick="Game(this.id)"></div>
+        <div id="d2" onclick="Game(this.id)"></div>
+        <div id="d3" onclick="Game(this.id)"></div>
+
+        <div id="d4" onclick="Game(this.id)"></div>
+        <div id="d5" onclick="Game(this.id)"></div>
+        <div id="d6" onclick="Game(this.id)"></div>
+
+        <div id="d7" onclick="Game(this.id)"></div>
+        <div id="d8" onclick="Game(this.id)"></div>
+        <div id="d9" onclick="Game(this.id)"></div>
+
+    </div>
+    <div class="bu">
+        <button type="reset" id="rt" onclick="reset()">Reset</button>
+    </div>
+    <script src="JS/index.js"></script>
+</body>
+</html>

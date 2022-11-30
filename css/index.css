@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-image: url(img.jpg);
+    background-size: cover;
+}
+.title , #turn , #result{
+    width: 350px;
+    height: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.parent{
+    margin: 20px auto;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.parent div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 225px;
+    height: 160px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border: 1px rgb(0, 0, 0) solid;
+}
+.parent div:hover{
+    background-color: rgb(128, 126, 123);
+}
+.bu{
+    width: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#rt{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
